@@ -28,7 +28,7 @@ export default function ProfileScreen() {
     if (videoRef.current) {
       videoRef.current.playAsync();
     }
-  }, [])
+  }, []);
 
   return (
     <SafeAreaProvider>
